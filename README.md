@@ -1,5 +1,22 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Config Git
+
+```
+git init
+git config user.name "Anderson Andrade"
+git config user.email "anderson@uniquemarketing.com.br"
+git config core.autocrlf input
+git config core.eol lf
+git branch -m main
+```
+
+### Checking local settings
+
+```
+git config --local --list
+```
+
 ## Getting Started
 
 First, run the development server:
